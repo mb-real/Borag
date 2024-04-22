@@ -15,4 +15,4 @@ jobs:
 
       - name: Run Python script
         run: |
-          python levelup.py
+          python levelup.py 3 7
