@@ -1,8 +1,7 @@
+import sys
 
-n = input()
-n = n.split(" ")
-L = int(n[0])
-R = int(n[1])
+L = int(sys.argv[1])
+R = int(sys.argv[2])
 
 result = "1"
 
